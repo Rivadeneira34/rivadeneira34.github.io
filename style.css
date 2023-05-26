@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: lightgoldenrodyellow;
+    background-color : lightgoldenrodyellow;
 }
 
 header {
@@ -29,13 +29,15 @@ main {
 
 .about {
     margin-bottom: 80px;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: large
     
 }
 
 h2 {
     color: #0a0a0a;
-    font-size: larger;
+    font-size: xx-large;
+
 }
 
 .about-grid {
@@ -46,10 +48,10 @@ h2 {
 
 p{
     font-family: sans-serif;
-    font-weight: bold;
-    font-size: large;
+    font-weight: normal;
+    font-size: x-large;
     margin: 0;
-    border: 10px solid #9c4444;
+    
     padding: 10px;
     flex: 1 1 300px;
     border-radius: 15%;
@@ -59,6 +61,9 @@ p{
     text-align: center;
 }
 
+h1{
+    font-size: xx-large;
+}
 ul li{
     display: inline-block;
     list-style: none;
@@ -76,8 +81,10 @@ li {
 } 
 
 .skills {
-    margin-bottom: 80px;
-    font-weight: bold;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: large;
+    margin: 0;
 }
 
 .project-container { 
@@ -100,7 +107,7 @@ li {
     height: auto;
     position: bottom;
     border-radius: 45%;
-    position: left;
+    position: center;
 }
 
 .image {
@@ -123,3 +130,4 @@ background: radial-gradient(circle, rgb(105, 32, 32) 79%, rgb(12, 11, 11) 100%);
     .about-grid {
         grid-template-columns: 1fr;
     }
+ 
