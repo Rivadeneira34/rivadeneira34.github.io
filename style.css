@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color : lightgoldenrodyellow;
+    background: rgb(199,199,199);
+background: radial-gradient(circle, rgba(199,199,199,1) 79%, rgba(255,255,255,1) 100%);
 }
 
 header {
     background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(105, 32, 32) 79%, rgb(12, 11, 11) 100%);
+background: radial-gradient(circle, rgb(139, 136, 136) 79%, rgb(12, 11, 11) 100%);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -15,7 +16,7 @@ background: radial-gradient(circle, rgb(105, 32, 32) 79%, rgb(12, 11, 11) 100%);
 
 ul li a{
     text-decoration: none;
-    color: rgb(243, 240, 240);
+    color: rgb(2, 2, 2);
     font-weight: bold;
     position: top
     
@@ -44,6 +45,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
 }
 
 p{
@@ -57,10 +60,6 @@ p{
     border-radius: 15%;
 }
 
-.sidebar{
-    text-align: center;
-}
-
 h1{
     font-size: xx-large;
 }
@@ -69,6 +68,7 @@ ul li{
     list-style: none;
     margin: 20px 10px;
     font-size: larger;
+    
 }
 
 ul {
@@ -82,9 +82,11 @@ li {
 
 .skills {
     font-family: sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
     font-size: large;
     margin: 0;
+    border-style: solid;
+    border-color: black;
 }
 
 .project-container { 
@@ -92,21 +94,36 @@ li {
     flex-wrap: wrap; 
     gap: 20px; 
 } 
-.project-1 {
+.Article-main {
     margin-bottom: 80px;
     font-weight: bold;
 }
+.Article-1 {
+    padding: 20px;
+    flex: 1 1 1 300px;
+    border-style: groove;
+    border-color: black;
+}
 
-.projects-2 {
-    padding: 10px;
-    flex: 1 1 300px;
+.Article-2 {
+    padding: 20px;
+    flex: 1 1 1 300px;
+    border-style: groove;
+    border-color: black;
+}
+
+.Article-3 {
+    padding: 20px;
+    flex: 1 1 1 300px;
+    border-style: groove;
+    border-color: black;
 }
 
 .logo{
-    width: 400px;
+    width: 300px;
     height: auto;
     position: bottom;
-    border-radius: 45%;
+    border-radius: 30%;
     position: center;
 }
 
@@ -114,13 +131,28 @@ li {
     max-width: 40%;
 }
 
+.twitch{
+    max-width: 100px;
+    padding: 3%;
+}
+
+.css-logo{
+    max-width: 100px;
+    padding: 3%;
+
+}
+
+.html-logo{
+    max-width: 100px;
+}
+
 ul li a:hover{
-    color: rgb(12, 11, 11);
+    color: rgb(238, 238, 238);
 }
 
 footer {
     background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(105, 32, 32) 79%, rgb(12, 11, 11) 100%);
+background: radial-gradient(circle, rgb(139, 136, 136) 79%, rgb(12, 11, 11) 100%);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -130,4 +162,3 @@ background: radial-gradient(circle, rgb(105, 32, 32) 79%, rgb(12, 11, 11) 100%);
     .about-grid {
         grid-template-columns: 1fr;
     }
- 
